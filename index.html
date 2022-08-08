@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles/main.css" />
-  <script defer src="./toDo.js"></script>
-</head>
-
-<body>
-  <div class="container">
-    <form id="todo" class="todo">
-      <input type="text" id="description_task" class="todo_text" />
-      <button type="submit" id="add_task" class="todo_btn">Add</button>
-    </form>
-    <ul class="todo_items" id="todo_wrapper"></ul>
-  </div>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./index.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="todo" class="todo">
+        <input type="text" id="description_task" class="todo_input" />
+        <button type="submit" id="add_task" class="todo_btn">Add</button>
+      </form>
+      <ul class="todo_items" id="todo_wrapper"></ul>
+    </div>
+  </body>
 </html>
